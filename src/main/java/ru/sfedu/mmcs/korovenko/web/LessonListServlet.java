@@ -22,7 +22,7 @@ public class LessonListServlet extends HttpServlet { //благодаря нас
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException { // при ошибке программа не упадёт: выведется страница ошибки
 
-        List<Lesson> lessons = lessonDAO.findAll(); //получение списка всех уроков
+        List<Lesson> lessons = lessonDAO.findAll(); //получение списка всех уроков 
         request.setAttribute("lessons", lessons); // кладём в request
 
         request.getRequestDispatcher("/lesson-list.jsp").forward(request, response); //находит файл в ""; Передаёт туда request и запускает эту страницу

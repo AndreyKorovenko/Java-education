@@ -3,15 +3,18 @@
 <head>
     <title>Сайт с уроками по Java</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>Java понятным языком для чайников</h1>
+    <h1>Java понятным языком для начинающих</h1>
     <p>Здесь Вы найдёте уроки по основам Java программирования.</p>
 
     <hr>
     <h2>Разделы сайта:</h2>
+
     <ul>
-            <li><a href="/lessons">Список всех уроков</a></li>
+        <li><a href="/lessons">Список всех уроков</a></li>
+        <li><a href="/new-lesson.jsp">Добавить новый урок</a></li>
     </ul>
 </body>
 </html>
